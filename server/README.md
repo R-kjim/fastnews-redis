@@ -2,7 +2,7 @@
 
 The backend API provides news article data with intelligent Redis caching for optimal performance and scalability.
 
-## 🎯 Purpose
+## Purpose
 
 This FastAPI backend serves as the data layer for the news application:
 - **API Endpoints**: RESTful endpoints for fetching news articles
@@ -11,7 +11,7 @@ This FastAPI backend serves as the data layer for the news application:
 - **Query Building**: Advanced RediSearch query construction
 - **Performance Metrics**: Request timing and cache hit/miss tracking
 
-## ✨ Features
+## Features
 
 - **High Performance**: Redis caching reduces response times by up to 90%
 - **Flexible Filtering**: Multi-parameter search and filtering
@@ -21,7 +21,7 @@ This FastAPI backend serves as the data layer for the news application:
 - **CORS Support**: Cross-origin resource sharing for frontend integration
 - **Health Checks**: Endpoint monitoring and status reporting
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **FastAPI**: Modern, fast web framework for building APIs
 - **Redis**: In-memory data structure store for caching
@@ -30,7 +30,7 @@ This FastAPI backend serves as the data layer for the news application:
 - **Pydantic**: Data validation using Python type annotations
 - **Python 3.8+**: Modern Python with async/await support
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
